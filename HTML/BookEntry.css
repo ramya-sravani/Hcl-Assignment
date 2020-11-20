@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Entry Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <form action="#">
+            <div class="container">
+            <h1><b>Book Entry Form</b></h1>
+            <hr>
+            
+            <input type="text" placeholder="Enter book title" name="title" id="title" required>
+
+            <input type="text" placeholder="Enter book isbn" name="isbn" id="isbn" required>
+
+            <input type="text" placeholder="Enter book price" name="price" id="price" required>
+
+            <input type="text" placeholder="Enter book No.of copies" name="No.of copies" id="No.of copies" required>
+
+            <input type="text" placeholder="Enter book Author" name="author" id="author" required>
+            
+            <input type="text" placeholder="Enter book publishe name" name="publisher" id="publisher" required>
+            
+            <input type="text" placeholder="Enter publisher address" name="address" id="address" required>
+
+            <select  name="booktype" id="booktype">
+                <option value="" disabled selected>Select Book Type</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="Knowledge">Knowledge</option>
+                <option value="Sports">Sports</option>
+                <option value="Comic">Comic</option>
+              </select>
+              <button type="submit" class="registerbtn">Submit</button>
+
+              
+        </div>
+        <footer style="background-color: darkgrey;">
+            <p>&copy All rights Reserved</p>
+            <p>Divya Elupuru</p>
+          </footer>
+        </form> 
+    </center>
+    </body>
+</html>
