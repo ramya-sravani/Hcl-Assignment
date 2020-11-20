@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration form</title>
+<script src="valid.js"></script>
+</head>
+
+<body>
+
+<form action="#" method ="get"></form>
+<table>
+    <tr>
+        <td>Enter Title:</td>
+        <td><input type ="text" name="title" id="titleid"/><br>
+        </td>
+        <td><label id="titlemsg"></label></label></td>
+    </tr>
+    <tr>
+        <td>Enter Author name</td>
+        <td><input type ="text" name="author" id="authorid"/><br>
+        </td>
+        <td><label id="authormsg"></label></label></td>
+    </tr>
+    <tr>
+        <td>No.of Copies</td>
+        <td><input type ="text" name="copies" id="copiesid"/><br>
+        </td>
+        <td><label id="copiesmsg"></label></label></td>
+    </tr>
+    
+    <tr>
+        <td>Published Date</td>
+        <td><input type ="date" name="date" id="dateid"/><br>
+        </td>
+        <td><label id="datemsg"></label></label></td>
+    </tr>
+    <tr>
+        <td><input type ="submit" onclick="return validate();"></td>
+    </tr>
+</table>
+
+</form>
+
+    <!-- Enter Name:<input type ="text" name="name" id="nameId"/><br>
+    Enter Password:<input type ="text" name="pass" id="passId"/><br>
+<input type ="submit" onclick="return validate();"> -->
+
+
+</body>
+</html>
