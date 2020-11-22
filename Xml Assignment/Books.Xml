@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Library xmlns:tns="http://www.example.org/books" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/books books.xsd ">
+  <tns:LibraryName>tns:LibraryName</tns:LibraryName>
+  <tns:LibraryLocation>tns:LibraryLocation</tns:LibraryLocation>
+  <tns:Books>
+    <tns:ISBN>tns:ISBN</tns:ISBN>
+    <tns:BookName>tns:BookName</tns:BookName>
+    <tns:BookType>tns:BookType</tns:BookType>
+    <tns:NumberOfCopies>0</tns:NumberOfCopies>
+    <tns:Author>
+      <tns:AuthorName>tns:AuthorName</tns:AuthorName>
+    </tns:Author>
+  </tns:Books>
+</tns:Library>
