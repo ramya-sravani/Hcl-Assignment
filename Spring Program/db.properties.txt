@@ -1,0 +1,4 @@
+db.driverName=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/servlets
+db.username=student
+db.password=student
